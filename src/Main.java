@@ -3,12 +3,12 @@ public class Main {
 
 
     /**
-     * Function called "Tableau" taking in parameter Tab (Tab an int type parameter)
-     * "Tableau" go throughout Tab
-     * Show each Tab value
+     * Function shows each value of the tab
+     * @param Tab an int type parameter used in the function Tableau
      */
     //On déclare une fonction Tableau qui prend en paramètre Tab (tableau des scores)
     public static void Tableau (int[] Tab){
+
         //Parcourir Tab
         for (int i = 0; i < Tab.length; i++) {
             //Afficher chaque case
@@ -18,11 +18,8 @@ public class Main {
 
 
     /**
-     * Function called "MaxTab" taking in parameter Tab (Tab an int type parameter)
-     * "MaxTab" go throughout Tab
-     * Default int max = first case
-     * If case value is below to first case then max takes this value and if the next value is still below then max takes this new value
-     * Show Tab's max value
+     * Function shows max value of the tab
+     * @param Tab an int type parameter used in the function MaxTab
      */
     //On déclare une fonction MaxTab qui prend en paramètre Tab (tableau des scores)
     public static void MaxTab (int[] Tab){
@@ -41,9 +38,9 @@ public class Main {
 
 
     /**
-     * Function called "Vrai" taking in parameter Tab (Tab an int type parameter)
-     * "Vrai" go throughout Tab
-     * If case value is under 10 then teh function returns true else retuens false
+     * Function shows if one value is under 10
+     * @param Tab an int type parameter used in the function Vrai
+     * @return true if one case value is under 10
      */
     //On déclare une fonction Vrai qui prend en paramètre Tab (tableau des scores)
     public static boolean Vrai (int[] Tab){
@@ -57,7 +54,7 @@ public class Main {
         return false;
     }
 
-
+    
     public static void main(String[] args) {
         System.out.println("Hello world!");
 
